@@ -37,9 +37,9 @@ namespace Grafikus
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(316, 198);
+            this.button1.Location = new System.Drawing.Point(310, 198);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 21);
+            this.button1.Size = new System.Drawing.Size(135, 54);
             this.button1.TabIndex = 0;
             this.button1.Text = "Számol";
             this.button1.UseVisualStyleBackColor = true;
