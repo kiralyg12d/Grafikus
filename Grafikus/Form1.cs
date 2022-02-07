@@ -24,7 +24,16 @@ namespace Grafikus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if (textBox1.Text.Length < 4|| textBox1.Text.Length >4)
+            {
+                MessageBox.Show("Üres szövegbox vagy legalább 4 karakter legyem.");
+            }
+            int szuletesev = 0;
+            bool szuletes = int.TryParse(textBox1.Text, out szuletesev);
+            if (!szuletes)
+            {
+                MessageBox.Show("A szövegbe csak számot irjon");
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
