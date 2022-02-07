@@ -34,6 +34,8 @@ namespace Grafikus
             {
                 MessageBox.Show("A szövegbe csak számot irjon");
             }
+            DateTime adottido = DateTime.Now;
+            label2.Text = $"{adottido.Year - szuletesev} éves.";
         }
 
         private void label1_Click(object sender, EventArgs e)
